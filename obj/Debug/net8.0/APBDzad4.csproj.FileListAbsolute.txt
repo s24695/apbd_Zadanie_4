@@ -31,3 +31,4 @@ C:\Users\kacpe\RiderProjects\APBDzad4\APBDzad4\obj\Debug\net8.0\refint\APBDzad4.
 C:\Users\kacpe\RiderProjects\APBDzad4\APBDzad4\obj\Debug\net8.0\APBDzad4.pdb
 C:\Users\kacpe\RiderProjects\APBDzad4\APBDzad4\obj\Debug\net8.0\APBDzad4.genruntimeconfig.cache
 C:\Users\kacpe\RiderProjects\APBDzad4\APBDzad4\obj\Debug\net8.0\ref\APBDzad4.dll
+C:\Users\kacpe\RiderProjects\APBDzad4\APBDzad4\obj\Debug\net8.0\APBDzad4.sourcelink.json
