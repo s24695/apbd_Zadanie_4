@@ -10,4 +10,10 @@ public interface IAnimalsService
 
     void DeleteAnimal(Animal animal);
 
+    IEnumerable<Visit> GetVisits();
+
+    IEnumerable<Visit> GetAnimalVisits(Animal animal);
+
+    List<Visit> CreateVisit(Visit visit);
+
 }

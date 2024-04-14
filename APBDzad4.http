@@ -1,3 +1,7 @@
+GET http://localhost:80/api/item?id=99
+Accept: application/json
+
+###
 @APBDzad4_HostAddress = http://localhost:5246
 
 GET {{APBDzad4_HostAddress}}/weatherforecast/

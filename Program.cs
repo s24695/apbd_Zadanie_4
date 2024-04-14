@@ -7,7 +7,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
-builder.Services.AddScoped<IAnimalsService, AnimalsService>();
+builder.Services.AddSingleton<IAnimalsService, AnimalsService>();
 
 var app = builder.Build();
 

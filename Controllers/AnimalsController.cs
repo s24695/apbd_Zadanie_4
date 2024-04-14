@@ -79,4 +79,30 @@ public class AnimalsController : ControllerBase
 
         return Ok(updatedAnimals);
     }
+    
+    //========================================== visits section
+    
+    // return all planned visits for all animals
+    [HttpGet("/api/visits")] 
+    public IActionResult GetVisits()
+    {
+        var visits = _animalsService.GetVisits();
+        return Ok(visits);
+    }
+
+    [HttpGet("/api/visits {id:int}")]
+    public IActionResult GetAnimalVisits(int id)
+    {
+        var animals = _animalsService.GetVisits();
+        var animalVisits = animals.Where(v => v.animalId == id);
+        return Ok(animalVisits);
+    }
+
+    [HttpPost("/api/visits")]
+    public IActionResult CreateVisit(Visit visit)
+    {
+        var newVisit = _animalsService.CreateVisit(visit);
+        return StatusCode(StatusCodes.Status201Created, newVisit);
+    }
+    
 }
